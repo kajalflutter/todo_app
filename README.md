@@ -52,17 +52,51 @@ Tasks are displayed in a scrollable ListView with support for dynamic updates.
 
 ## Package Details
 1 flutter_slidable: Adds slideable widgets for list items, enabling swipe actions like delete, edit, etc.
+
 2 google_fonts:Provides access to Google Fonts.
+
 3 intl: Supports internationalization and formatting for dates, numbers, and currencies.
+
 4 sqflite: Enables local database storage using SQLite for data persistence.
+
 5 dio: A powerful HTTP client for making RESTful API requests.
+
 6 pretty_dio_logger: Formats and logs HTTP requests and responses for easier debugging.
+
 7 get_it: Implements dependency injection for managing app-wide services and instances.
+
 8 dartz: Provides functional programming utilities like Either, Option, and more.
+
 9 flutter_bloc: Manages application state using the BLoC (Business Logic Component) pattern.
+
 10 path: Utilities for manipulating file system paths in a cross-platform manner.
+
 11 connectivity_plus: Detects network connectivity status (WiFi, mobile, or offline).
+
 12 http: Simplifies making RESTful API requests using HTTP.
 
 
+Steps to run the project:
+1 git clone https://github.com/kajalflutter/todo_app.git
 
+2 go to the folder in local,
+cd <repository_folder_name>
+
+3 Run below command in vs code
+flutter pub get
+
+4 If you want to run the app on emulator , run below command on terminal
+flutter run
+
+5 If you want to create an apk file,  run below command on terminal
+flutter build apk,
+APK File will be found at below path
+/build/app/outputs/flutter-apk/ 
+
+
+
+
+
+
+
+update base url and apis in file lib/app/api_manager.dart
